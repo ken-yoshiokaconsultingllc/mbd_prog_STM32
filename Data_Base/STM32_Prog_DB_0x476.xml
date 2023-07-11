@@ -5,7 +5,7 @@
 		<Vendor>STMicroelectronics</Vendor>
 		<Type>MCU</Type>
 		<CPU>Cortex-M33</CPU>
-		<Name>STM32U5Fx</Name>
+		<Name>STM32U5Fx/5Gx</Name>
 		<Series>STM32U5</Series>
 		<Description>ARM 32-bit Cortex-M33 based device</Description>
 		<Configurations>

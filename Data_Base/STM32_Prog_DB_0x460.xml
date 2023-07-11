@@ -23,7 +23,6 @@
 			</Interface>
 			<!-- Bootloader Interface -->
 			<Interface name="Bootloader">
-			<Configurations>
 				<Configuration	number="0x0">
 					<ValueLine> <ReadRegister address="0x1FFF77DD" mask="0xFF" value="0xFF"/> </ValueLine>
 				</Configuration>
@@ -33,7 +32,6 @@
 				<Configuration	number="0x2">
 					<ValueLine> <ReadRegister address="0x1FFF77DD" mask="0xFF" value="0x31"/> </ValueLine>
 				</Configuration>
-				</Configurations>
 			</Interface>
 		</Configurations>
 		<!-- Peripherals -->

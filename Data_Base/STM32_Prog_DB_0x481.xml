@@ -2614,7 +2614,7 @@
 					<Category>
 					<Name>Secure Area 2</Name>
 						<Field>
-							<Parameters address="0x4002205C" name="FLASH_SECWM2R1" size="0x4"/>
+							<Parameters address="0x40022060" name="FLASH_SECWM2R1" size="0x4"/>
 							<AssignedBits>
 								<Bit config="8">
 									<Name>SECWM2_PSTRT</Name>
@@ -2675,7 +2675,7 @@
 									</AssignedBits>
 							</Field>
 					</Category>
-							<Category>
+					<Category>
 								<Name>Write Protection 2</Name>
 							<Field>
 									<Parameters address="0x40022068" name="FLASH_WRP2AR" size="0x4"/>
@@ -2773,7 +2773,65 @@
 									</Bit>
 									</AssignedBits>
 								</Field>
-						</Category>						
+					</Category>	
+					<Category>
+						<Name>RDP Level 1 Password</Name>
+						<Field>
+							<Parameters address="0x40022070" name="OEM1KEYR1" size="0x4"/>
+							<AssignedBits>
+							<Bit>
+								<Name>OEM1KEYR1</Name>
+								<Description>OEM1 least significant bytes key</Description>
+								<BitOffset>0x0</BitOffset>
+								<BitWidth>0x32</BitWidth>
+								<Access>RW</Access>
+								<Equation multiplier="0" offset="0"/>
+							</Bit>
+							</AssignedBits>
+						</Field>
+						<Field>
+							<Parameters address="0x40022074" name="OEM1KEYR2" size="0x4"/>
+							<AssignedBits>
+							<Bit>
+								<Name>OEM1KEYR2</Name>
+								<Description>OEM1 most significant bytes key</Description>
+								<BitOffset>0x0</BitOffset>
+								<BitWidth>0x32</BitWidth>
+								<Access>RW</Access>
+								<Equation multiplier="0" offset="0"/>
+							</Bit>
+							</AssignedBits>
+						</Field>
+					</Category>
+					<Category>
+						<Name>RDP Level 2 Password </Name>
+						<Field>
+							<Parameters address="0x40022078" name="OEM2KEYR1" size="0x4"/>
+							<AssignedBits>
+							<Bit>
+								<Name>OEM2KEYR1</Name>
+								<Description>OEM2 least significant bytes key</Description>
+								<BitOffset>0x0</BitOffset>
+								<BitWidth>0x32</BitWidth>
+								<Access>RW</Access>
+								<Equation multiplier="0" offset="0"/>
+							</Bit>
+							</AssignedBits>
+						</Field>
+						<Field>
+							<Parameters address="0x4002207C" name="OEM2KEYR2" size="0x4"/>
+							<AssignedBits>
+							<Bit>
+								<Name>OEM2KEYR2</Name>
+								<Description>OEM2 most significant bytes key</Description>
+								<BitOffset>0x0</BitOffset>
+								<BitWidth>0x32</BitWidth>
+								<Access>RW</Access>
+								<Equation multiplier="0" offset="0"/>
+							</Bit>
+							</AssignedBits>
+						</Field>
+					</Category>				
 				</Bank>
 			</Peripheral>
 		</Peripherals>

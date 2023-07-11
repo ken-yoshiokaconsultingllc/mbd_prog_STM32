@@ -43,6 +43,7 @@
 				<ErasedValue>0xFF</ErasedValue>
 				<Access>RWE</Access>
 				<FlashSize address="0x1FFF75E0" default="0x20000"/>
+				<BootloaderVersion address="0x1FFF6FFE"/>
 				<!-- 1MB dual Bank -->
 				<Configuration>  <!-- single Bank -->
 					<Parameters address="0x08000000" name=" 128 Kbyte Embedded Flash" size="0x20000"/>

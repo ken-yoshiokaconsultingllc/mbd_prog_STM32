@@ -184,7 +184,7 @@
 					<Category>
 						<Name>User Configuration</Name>
 						<Field>
-							<Parameters address="0x4002201C" nname="FLASH_OBR" size="0x4"/>
+							<Parameters address="0x4002201C" name="FLASH_OBR" size="0x4"/>
 							<AssignedBits>
 								<Bit>
 									<Name>IWDG_SW</Name>
